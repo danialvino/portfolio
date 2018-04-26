@@ -1,0 +1,28 @@
+<div class="navbar-wagon navbar-default navbar-fixed-top">
+  <!-- Logo -->
+    <%= image_tag "monster.png", height: 35 %>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <a href="#aboutme" class="navbar-wagon-item navbar-wagon-link">About</a>
+    <a href="#skills" class="navbar-wagon-item navbar-wagon-link">Skills</a>
+    <a href="#projects" class="navbar-wagon-item navbar-wagon-link">Projects</a>
+    <a href="#contact" class="navbar-wagon-item navbar-wagon-link">Contacts</a>
+
+    <!-- Profile picture with dropdown list -->
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#aboutme">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contacts</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
